@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/wov.png");
+}
+
+.jumbotron {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/08/09/49/craft-2728227_1280.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:#ffc107;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h3 {
+    color: #ffc107;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#img {
+    position: fixed;
+    right: 100px;
+    width: 300px;
+
+}

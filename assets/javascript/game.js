@@ -41,6 +41,15 @@ function isDuplicateGuess(letter) {
     }
 }
 
+function html() {
+    document.getElementById("showWins").textContent = wins;
+    document.getElementById("showLosses").textContent = losses;
+    document.getElementById("showGuesses").textContent = guesses;
+    document.getElementById("guessedLetters").textContent = guessedLetters;
+}
+
+
+
 
 
 function logAllVars() {
@@ -56,7 +65,7 @@ function logAllVars() {
 
 // setting random letter
 var rLetter = randomLetter();
-
+html(); // shows at game start
 /// when a key is pressed, run game logic
 document.onkeyup = function (event) {
     var inputLetter = event.key.toLowerCase();
@@ -78,6 +87,7 @@ document.onkeyup = function (event) {
 
         }
         logAllVars();
+        html();
     }
 }
 

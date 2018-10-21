@@ -33,5 +33,7 @@ If correct:
 		Guesses left will reset to 7
 		letters on screen will be cleared (without refresh)
 
+		
+
 I maintain this project. More can be found at www.bamhigg.in
 		

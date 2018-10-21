@@ -1,21 +1,17 @@
 # Psychic-Game
 A word guessing game built using Javascript.
 
-
+What the project does
+Why the project is useful
+How users can get started with the project
+Where users can get help with your project
+Who maintains and contributes to the project
 
 
 The purpose of this game is to have the user guess the random A-Z letter that the computer generates
-<!-- (make sure to note LOWERCASE only) -->
 The user will have 7 guesses to find the letter
 The computer will keep track of games won and games lost without refreshing
 computer will collect user input of guessed letters and display on street throughout game
-
-
-
-Random letter generator
-	create a string of all alphabet letters
-	convert to lowercase
-	use random letter variable and mathfloor function to 
 	
 
 
@@ -36,4 +32,6 @@ If correct:
 		+1 will be added to wins
 		Guesses left will reset to 7
 		letters on screen will be cleared (without refresh)
+
+I maintain this project. More can be found at www.bamhigg.in
 		

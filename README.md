@@ -3,9 +3,13 @@ A word guessing game built using Javascript.
 
 
 The purpose of this game is to have the user guess the random A-Z letter that the computer generates
+
 The user will have 7 guesses to find the letter
+
 The computer will keep track of games won and games lost without refreshing
+
 The computer will collect user input of guessed letters and display on street throughout game
+
 
 
 Guessing - user will input a letter
